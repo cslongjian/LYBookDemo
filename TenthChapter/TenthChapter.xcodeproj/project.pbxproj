@@ -13,6 +13,7 @@
 		DE9469E11C7F37AD007A0378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9469DF1C7F37AD007A0378 /* Main.storyboard */; };
 		DE9469E31C7F37AD007A0378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9469E21C7F37AD007A0378 /* Assets.xcassets */; };
 		DE9469E61C7F37AD007A0378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9469E41C7F37AD007A0378 /* LaunchScreen.storyboard */; };
+		DEEFE6E91C87152C00FE18F3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEFE6E81C87152C00FE18F3 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DE9469E21C7F37AD007A0378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE9469E51C7F37AD007A0378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE9469E71C7F37AD007A0378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEFE6E71C87152C00FE18F3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DEEFE6E81C87152C00FE18F3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				DE9469E41C7F37AD007A0378 /* LaunchScreen.storyboard */,
 				DE9469E71C7F37AD007A0378 /* Info.plist */,
 				DE9469D61C7F37AD007A0378 /* Supporting Files */,
+				DEEFE6E71C87152C00FE18F3 /* Person.h */,
+				DEEFE6E81C87152C00FE18F3 /* Person.m */,
 			);
 			path = TenthChapter;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				DE9469DE1C7F37AD007A0378 /* ViewController.m in Sources */,
 				DE9469DB1C7F37AD007A0378 /* AppDelegate.m in Sources */,
+				DEEFE6E91C87152C00FE18F3 /* Person.m in Sources */,
 				DE9469D81C7F37AD007A0378 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 				DE9469EC1C7F37AD007A0378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

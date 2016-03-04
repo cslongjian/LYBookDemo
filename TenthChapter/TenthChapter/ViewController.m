@@ -7,16 +7,28 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
+{
+    UIButton *btn;
+}
 
 @end
 
 @implementation ViewController
+- (IBAction)finishEdit:(id)sender {
+    [sender resignFirstResponder];
+}
+- (IBAction)backTap:(id)sender {
+    [self.password resignFirstResponder];
+    [self.name resignFirstResponder];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
