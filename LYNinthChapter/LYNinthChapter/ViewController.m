@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CustomView.h"
 #import "LYCustomView.h"
+#import "StartViewController.h"
 
 @interface ViewController ()
 
@@ -73,6 +74,9 @@
 
 - (IBAction)BtnAction:(id)sender {
     NSLog(@"BtnAction");
+    
+    StartViewController *startVC = [[StartViewController alloc]init];
+    
 }
 
 /*

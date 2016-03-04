@@ -15,6 +15,8 @@
 		DE133F941C7858A100071BAC /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE133F931C7858A100071BAC /* CustomView.m */; };
 		DE133F961C78598800071BAC /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE133F951C78598800071BAC /* CustomView.xib */; };
 		DE133F991C78ABF300071BAC /* LYCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE133F981C78ABF300071BAC /* LYCustomView.m */; };
+		DE664AB01C893B5F0013C273 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE664AAE1C893B5F0013C273 /* StartViewController.m */; };
+		DE664AB11C893B5F0013C273 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE664AAF1C893B5F0013C273 /* StartViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		DE133F951C78598800071BAC /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 		DE133F971C78ABF300071BAC /* LYCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCustomView.h; sourceTree = "<group>"; };
 		DE133F981C78ABF300071BAC /* LYCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCustomView.m; sourceTree = "<group>"; };
+		DE664AAD1C893B5F0013C273 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		DE664AAE1C893B5F0013C273 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		DE664AAF1C893B5F0013C273 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 				DE133F951C78598800071BAC /* CustomView.xib */,
 				DE133F971C78ABF300071BAC /* LYCustomView.h */,
 				DE133F981C78ABF300071BAC /* LYCustomView.m */,
+				DE664AAD1C893B5F0013C273 /* StartViewController.h */,
+				DE664AAE1C893B5F0013C273 /* StartViewController.m */,
+				DE664AAF1C893B5F0013C273 /* StartViewController.xib */,
 			);
 			path = LYNinthChapter;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE133F961C78598800071BAC /* CustomView.xib in Resources */,
+				DE664AB11C893B5F0013C273 /* StartViewController.xib in Resources */,
 				DE133F881C77678200071BAC /* Assets.xcassets in Resources */,
 				DE133F861C77678200071BAC /* Main.storyboard in Resources */,
 			);
@@ -162,6 +171,7 @@
 				DE133F831C77678200071BAC /* ViewController.m in Sources */,
 				DE133F941C7858A100071BAC /* CustomView.m in Sources */,
 				DE133F991C78ABF300071BAC /* LYCustomView.m in Sources */,
+				DE664AB01C893B5F0013C273 /* StartViewController.m in Sources */,
 				DE133F801C77678200071BAC /* AppDelegate.m in Sources */,
 				DE133F7D1C77678200071BAC /* main.m in Sources */,
 			);
@@ -304,6 +314,7 @@
 				DE133F911C77678200071BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

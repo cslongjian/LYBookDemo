@@ -22,11 +22,11 @@
 //使用init方式去添加View  这种启动方式。没有去添加xib的
 -(instancetype)initWithFrame:(CGRect)frame
 {
-    NSLog(@"使用init方式去添加View");
+    NSLog(@"方式1--使用initWithFrame方式去添加View");
     self = [super initWithFrame:frame];
     if (self) {
         UILabel *lable = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 30)];
-        lable.text = @"添加文本";
+        lable.text = @"方式1";
         [self addSubview:lable];
     }
     return  self;
@@ -44,11 +44,11 @@
 //加载完nib后自动调用。补充view
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
-    NSLog(@"自定义View");
+    NSLog(@"方式2-自定义View，从XIB加载后，继续添加View");
     self = [super initWithCoder:aDecoder];
     if (self) {
         UILabel *lable2 = [[UILabel alloc]initWithFrame:CGRectMake(0, 30, 100, 30)];
-        lable2.text = @"文本2";
+        lable2.text = @"方式2";
         [self addSubview:lable2];
     }
     return self;
@@ -58,7 +58,7 @@
 //绘制方式 不管上面两种。这个是一定会执行的。
 - (void)drawRect:(CGRect)rect {
     // Drawing code
-    
+    NSLog(@"方式3-（方法1或者方法2 路劲执行）不管怎么样，都会走这步drawRect");
     // What rectangle am I filling?
     CGRect bounds = [self bounds];
     // Where is its center?
