@@ -23,6 +23,11 @@
 -(instancetype)initWithFrame:(CGRect)frame
 {
     NSLog(@"方式1--使用initWithFrame方式去添加View");
+    //在这里只适合使用一些基本的设置和初始化 。不能设置位置。因为位置self的位置这个适合还是未创建的。应该在下面这个方法中去设置子控件的位置
+//    - (void)layoutSubviews
+//    {
+//        [super layoutSubviews];
+//    }
     self = [super initWithFrame:frame];
     if (self) {
         UILabel *lable = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 30)];
